@@ -10,6 +10,7 @@
 
 using Debug = ConditionalDebug<DEBUG_CALLER, "Compartment call benchmark">;
 
+// NOLINTNEXTLINE(readability-identifier-naming)
 DECLARE_AND_DEFINE_ALLOCATOR_CAPABILITY(MALLOC_CAP_TWO, 1024);
 
 __noinline int local_noop_return_metric()
